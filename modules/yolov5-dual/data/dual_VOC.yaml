@@ -1,0 +1,19 @@
+# YOLOv5 🚀 by Ultralytics, GPL-3.0 license
+# PASCAL VOC dataset http://host.robots.ox.ac.uk/pascal/VOC by University of Oxford
+# Example usage: python train.py --data VOC.yaml
+# parent
+# ├── yolov5
+# └── datasets
+#     └── VOC  ← downloads here
+
+
+# Train/val/test sets as 1) dir: path/to/imgs, 2) file: path/to/imgs.txt, or 3) list: [path/to/imgs1, path/to/imgs2, ..]
+train1: /home/cxl/dual_yolo/dual_model_conv_yolov5/modules/yolov5-test/data/dual_data/train1/
+train2: /home/cxl/dual_yolo/dual_model_conv_yolov5/modules/yolov5-test/data/dual_data/train2/
+val: /home/cxl/dual_yolo/dual_model_conv_yolov5/modules/yolov5-test/data/dual_data/label/
+
+# Classes
+nc: 7  # number of classes
+names: ['pedestrian','cyclist','car','bus','truck','traffic_light','traffic_sign']  # class names
+
+
