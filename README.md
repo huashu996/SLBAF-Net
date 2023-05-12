@@ -1,5 +1,5 @@
 # dual_modal_perception
-论文名称《SLBAF-Net: Super-Lightweight bimodal adaptive fusion network for UAV detection in low recognition environment》
+论文名称《SLBAF-Net: Super-Lightweight bimodal adaptive fusion network for UAV detection in low recognition environment》   
 论文地址  https://link.springer.com/article/10.1007/s11042-023-15333-w
 ROS package for dual modal perception (rgbt)
 ## 简介
